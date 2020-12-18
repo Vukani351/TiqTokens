@@ -1,0 +1,115 @@
+
+.body_more, ion-content{
+    background-color: rgb(40, 11, 61);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+ion-card{
+    color: indigo;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    #loc_pin{
+        color: red;
+    }
+
+    on-card-subtitle{
+        align-items: left;
+        align-content: left;
+    }
+
+}
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion_cont">
+      <h1>
+        UP COMING EVENTS
+      </h1>
+      
+    </ion-title>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-slides pager="true">
+    <ion-slide class="slide_content">
+      <div> 
+        <img src="../assets/images/bodybuilding.jpg" alt="bodybuilding image"> 
+        <h3 class="event_name"> Body Building Event</h3>
+      </div>
+      
+    </ion-slide>
+    <ion-slide class="slide_content">
+      <div> 
+        <img src="../assets/images/fashion.JPG" alt="Fashionable image"> 
+        <h3 class="event_name"> Fashion Event</h3>
+      </div>
+      
+    </ion-slide>
+    <ion-slide class="slide_content">
+      <div> 
+        <img src="../assets/images/Food1.jpg" alt="Resturants image">
+        <h3 class="event_name"> Resturants Event</h3> </div>
+      <div>
+        
+    </div>
+    </ion-slide>
+    <ion-slide class="slide_content">
+      <div> 
+        <img src="../assets/images/tech1.jpg" alt="Technology image"> 
+        <h3 class="event_name"> Technology-based Event</h3>
+      </div>
+      
+    </ion-slide>
+  </ion-slides>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">events</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container name="Events Tab"></app-explore-container>
+</ion-content>
+
+
+
+
+
+
+    <ion-content>
+      <div class="menue-header-bg"></div>
+      <div class="header-content">
+        <img src="../assets/images/vuksni.JPG" alt="Queen">
+        <ion-label >
+          <h2> Vukani Gcabashe</h2>
+          <p>Artist and Engineer2</p>
+        </ion-label>
+      </div>
+      <div class= "action-button">
+        <ion-button>
+          <ion-icon slot="start" name= "add"></ion-icon> Add Branch
+        </ion-button>
+      </div>
+
+      <ion-list lines= "none" name="menu-items" >
+        <ion-item class="active">
+          <ion-icon name="accessibility-outline"></ion-icon> Sport events
+        </ion-item>
+        <ion-item>
+          <ion-icon name="bag-handle-outline"></ion-icon> Shopping events
+        </ion-item>
+        <ion-item>
+          <ion-icon name="barbell-outline"></ion-icon> Body Building events
+        </ion-item>
+        <ion-item>
+          <ion-icon name="beer-outline"></ion-icon> Recreational events
+        </ion-item>
+      </ion-list>
+    </ion-content>

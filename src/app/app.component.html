@@ -1,0 +1,67 @@
+<ion-app>
+  <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Start Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+  <ion-menu side="start" menuId="custom" contentId="main" class="my-custom-menu">
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-title>Custom Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <!-- <ion-menu menuId="events-menu" contentId = "main2" autoHide="true">
+    <ion-content>
+      <div class="menue-header-bg"></div>
+      <div class="header-content">
+        <h1> customise events : </h1>
+      </div>
+      <div class= "action-button">
+        <ion-button name=" secondary">
+          <ion-icon slot="start" name= "add"></ion-icon> ADD EVENT
+        </ion-button>
+      </div>
+
+      <ion-list lines= "none" name="menu-items" >
+        
+        <ion-item class="active">
+          <ion-icon name="create"></ion-icon><h2> EDIT EVENT </h2>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="search"></ion-icon><h2> SEARCH EVENT </h2>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="backspace"></ion-icon><h2> DELETE EVENT </h2>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="star"></ion-icon><h2> RATE EVENT </h2>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+    
+  </ion-menu> -->
+  <ion-router-outlet id="main"></ion-router-outlet>
+  <!-- <ion-router-outlet id= "main2"></ion-router-outlet> -->
+</ion-app>

@@ -1,0 +1,36 @@
+// code for tool bar 'top bar' for the tab1 - events
+    
+ion-title{
+    width: 100%;
+    color: midnightblue;
+    font-family: Georgia;
+    font-weight: bold; 
+        
+}  
+
+.h1{
+    margin-left: 50px;
+    top: 0;
+    padding: -10px;
+    
+}
+
+ion-buttons{
+    align-items: left;
+    align-self: left;
+    left: 0%;    
+}
+
+ion-slides{
+    ion-slide{
+        font-family: Georgia;
+        font-weight: bold;
+        color: rgb(33, 85, 197);
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        margin-left: 10px;
+       
+    }    
+}
+
